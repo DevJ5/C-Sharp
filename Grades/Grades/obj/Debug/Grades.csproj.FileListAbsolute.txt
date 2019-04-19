@@ -1,7 +1,7 @@
-C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\bin\Debug\Grades.exe.config
-C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\bin\Debug\Grades.exe
 C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\bin\Debug\Grades.pdb
 C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\obj\Debug\Grades.csprojAssemblyReference.cache
 C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
-C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\obj\Debug\Grades.exe
 C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\obj\Debug\Grades.pdb
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\bin\Debug\Grades.exe.config
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\bin\Debug\Grades.exe
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades\obj\Debug\Grades.exe

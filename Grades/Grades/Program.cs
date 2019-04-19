@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Speech.Synthesis;
 
 namespace Grades
 {
@@ -10,6 +11,9 @@ namespace Grades
     {
         static void Main(string[] args)
         {
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Speak("Hello Timon, how are you?");
+
             GradeBook book = new GradeBook();
             book.AddGrade(91);
             // C# converts decimals to double precision floating points,

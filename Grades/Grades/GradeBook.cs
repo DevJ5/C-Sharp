@@ -31,6 +31,7 @@ namespace Grades
 
             foreach (float grade in grades)
             {
+                // Hover over Math class and press f12
                 stats.HighestGrade = Math.Max(grade, stats.HighestGrade);
                 stats.LowestGrade = Math.Min(grade, stats.LowestGrade);
                 sum += grade;
