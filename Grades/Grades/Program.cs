@@ -11,8 +11,9 @@ namespace Grades
     {
         static void Main(string[] args)
         {
+            // Right click references -> add reference.
             SpeechSynthesizer synth = new SpeechSynthesizer();
-            synth.Speak("Hello Timon, how are you?");
+            synth.Speak("Hello this is the grade book program.");
 
             GradeBook book = new GradeBook();
             book.AddGrade(91);
