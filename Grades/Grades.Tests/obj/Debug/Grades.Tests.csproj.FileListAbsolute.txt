@@ -1,0 +1,17 @@
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Grades.Tests.dll
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Grades.Tests.pdb
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\obj\Debug\Grades.Tests.csprojAssemblyReference.cache
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\obj\Debug\Grades.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\obj\Debug\Grades.Tests.csproj.CopyComplete
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\obj\Debug\Grades.Tests.dll
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\obj\Debug\Grades.Tests.pdb
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Grades.exe
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Grades.pdb
+C:\Users\Incentro\Documents\Visual Studio 2017\C#Course\Grades\Grades.Tests\bin\Debug\Grades.exe.config
