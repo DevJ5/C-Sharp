@@ -41,5 +41,7 @@ namespace Grades
 
             return stats;
         }
+
+        public string Name; // Public class members start with uppercase and private members start with lowercase
     }
 }

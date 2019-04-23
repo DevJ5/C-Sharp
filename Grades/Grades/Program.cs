@@ -29,7 +29,6 @@ namespace Grades
             Console.WriteLine(stats.LowestGrade);
             Console.WriteLine(stats.AverageGrade);
             // Right click a line, and run to cursor opens debugger on that line.
-           
         }
     }
 }
