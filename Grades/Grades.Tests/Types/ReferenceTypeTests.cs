@@ -10,15 +10,25 @@ namespace Grades.Tests.Types
     [TestClass] // Press Ctrl + . to open lightbulb for adding a reference.
     public class ReferenceTypeTests
     {
-        [TestMethod]
-        public void VariablesHoldAReference()
+        [TestMethod] // testm + double tab for snippet.
+        public void GradeBookVariablesHoldAReference()
         {
             GradeBook g1 = new GradeBook();
             GradeBook g2 = g1;
 
-            g1 = new GradeBook();
             g1.Name = "Scott's grade book";
             Assert.AreEqual(g1.Name, g2.Name);
+        }
+
+        [TestMethod]
+        public void IntVariablesHoldAValue()
+        {
+            int x1 = 100;
+            int x2 = x1;
+
+            x1 = 4;
+
+            Assert.AreNotEqual(x1, x2);
         }
     }
 }
