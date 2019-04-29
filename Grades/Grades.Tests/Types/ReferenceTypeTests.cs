@@ -10,6 +10,16 @@ namespace Grades.Tests.Types
     [TestClass] // Press Ctrl + . to open lightbulb for adding a reference.
     public class ReferenceTypeTests
     {
+        [TestMethod]
+        public void StringComparisons()
+        {
+            string name1 = "Scott";
+            string name2 = "scott";
+
+            bool result = String.Equals(name1, name2, StringComparison.InvariantCultureIgnoreCase);
+            Assert.IsTrue(result);
+        }
+
         [TestMethod] // testm + double tab for snippet.
         public void GradeBookVariablesHoldAReference()
         {
