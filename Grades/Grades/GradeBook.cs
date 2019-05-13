@@ -15,7 +15,7 @@ namespace Grades
         // Type 'ctor' and press tab twice for a constructor function
         public GradeBook()
         {
-            grades = new List<float>();
+            grades = new List<float>(); // We use a list because we dont know how many items we will store. 
         }
 
         // Method is called a "member"
