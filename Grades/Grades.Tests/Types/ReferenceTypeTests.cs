@@ -8,12 +8,59 @@ using System.Threading.Tasks;
 namespace Grades.Tests.Types
 {
     [TestClass] // Press Ctrl + . to open lightbulb for adding a reference.
-    public class ReferenceTypeTests
+    public class TypeTests
     {
+        [TestMethod]
+        public void UppercaseString()
+        {
+            string name = "scott";
+            name.ToUpper();
+
+            Assert.AreNotEqual("SCOTT", name); // String are reference types, but they are immutable, so they behave like a value type.
+        }
+
+        [TestMethod]
+        public void AddDaysToDateTime()
+        {
+            DateTime date = new DateTime(2015, 1, 1);
+            date.AddDays(1); // This needs to be assigned to a variable for it to work.
+            Assert.AreNotEqual(2, date.Day);
+
+            date = date.AddDays(1); // Like so.
+            Assert.AreEqual(2, date.Day);
+        }
+        [TestMethod]
+        public void ValueTypesPassByValue()
+        {
+            int x = 46;
+            IncrementNumber(x);
+            Assert.AreNotEqual(47, x);
+        }
+
+        private void IncrementNumber(int number)
+        {
+            number++;
+        }
+
+        [TestMethod]
+        public void ReferenceTypesPassByValue()
+        {
+            GradeBook book1 = new GradeBook();
+            GradeBook book2 = book1;
+
+            GiveBookAName(book2);
+            Assert.AreEqual("A gradebook", book1.Name);
+        }
+
+        private void GiveBookAName(GradeBook book)
+        {
+            book.Name = "A gradebook";
+        }
+
         [TestMethod]
         public void StringComparisons()
         {
-            string name1 = "Scott";
+            string name1 = "Scott"; // Press f12 when cursor is on string keyword and it will show you the class.
             string name2 = "scott";
 
             bool result = String.Equals(name1, name2, StringComparison.InvariantCultureIgnoreCase);
