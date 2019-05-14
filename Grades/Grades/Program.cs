@@ -25,10 +25,26 @@ namespace Grades
 
             GradeStatistics stats = book.ComputeStatistics();
             // Type cw and press tab twice for WriteLine
-            Console.WriteLine(stats.HighestGrade);
-            Console.WriteLine(stats.LowestGrade);
-            Console.WriteLine(stats.AverageGrade);
+            WriteResult("Highest grade", stats.HighestGrade);
+            WriteResult("Lowest grade", (int)stats.LowestGrade);
+            WriteResult("Average grade", stats.AverageGrade);
             // Right click a line, and run to cursor opens debugger on that line.
+        }
+
+        // Static methods can only call other static methods.
+        static void WriteResult(string description, int result)
+        {
+            Console.WriteLine(description + ": " + result);
+        }
+
+        // This method has a different signature because of a different parameter. (Method overloading)
+        static void WriteResult(string description, float result)
+        {
+            // Formatting string instead of string concatenation (F2 = float with 2 decimals)
+            Console.WriteLine("{0}: {1:F2}", description, result);
+
+            // String interpolation
+            Console.WriteLine($"{description}: {result:F2}");
         }
     }
 }
