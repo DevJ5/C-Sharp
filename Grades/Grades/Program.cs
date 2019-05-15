@@ -16,6 +16,8 @@ namespace Grades
             synth.Speak("Hello this is the grade book program.");
 
             GradeBook book = new GradeBook();
+            book.Name = "Scott's Gradebook";
+            book.Name = null;
             book.AddGrade(91);
             // C# converts decimals to double precision floating points,
             // for single point floating numbers with need to put an 'f' at the end.
@@ -24,6 +26,7 @@ namespace Grades
             book.AddGrade(15);
 
             GradeStatistics stats = book.ComputeStatistics();
+            Console.WriteLine(book.Name);
             // Type cw and press tab twice for WriteLine
             WriteResult("Highest grade", stats.HighestGrade);
             WriteResult("Lowest grade", (int)stats.LowestGrade);

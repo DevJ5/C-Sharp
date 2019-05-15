@@ -42,6 +42,22 @@ namespace Grades
             return stats;
         }
 
-        public string Name; // Public class members start with uppercase and private members start with lowercase
+       // Public class members start with uppercase and private members start with lowercase
+       // This is a property instead of a field. (A property has getters and setters).
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                if(!String.IsNullOrEmpty(value))
+                {
+                    _name = value;
+                }
+            }
+        }
+        private string _name;
     }
 }
