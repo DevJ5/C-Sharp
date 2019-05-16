@@ -16,6 +16,8 @@ namespace Grades
             synth.Speak("Hello this is the grade book program.");
 
             GradeBook book = new GradeBook();
+
+            book.NameChanged = new NameChangedDelegate(OnNameChanged);
             book.Name = "Scott's Gradebook";
             book.Name = null;
             book.AddGrade(91);
@@ -32,6 +34,11 @@ namespace Grades
             WriteResult("Lowest grade", (int)stats.LowestGrade);
             WriteResult("Average grade", stats.AverageGrade);
             // Right click a line, and run to cursor opens debugger on that line.
+        }
+
+        static void OnNameChanged(string existingName, string newName)
+        {
+            Console.WriteLine($"Grade book changing name from {existingName} to {newName}");
         }
 
         // Static methods can only call other static methods.

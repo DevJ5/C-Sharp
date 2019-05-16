@@ -15,6 +15,7 @@ namespace Grades
         // Type 'ctor' and press tab twice for a constructor function
         public GradeBook()
         {
+            _name = "Empty";
             grades = new List<float>(); // We use a list because we dont know how many items we will store. 
         }
 
@@ -54,10 +55,16 @@ namespace Grades
             {
                 if(!String.IsNullOrEmpty(value))
                 {
+                    if(_name != value)
+                    {
+                        NameChanged(_name, value);
+                    }
                     _name = value;
                 }
             }
         }
+
+        public NameChangedDelegate NameChanged;
         private string _name;
     }
 }
